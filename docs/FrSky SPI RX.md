@@ -53,7 +53,7 @@ The supported protocols are:
 3. click 'Save & Reboot'. After the reboot, the RX LED will confirm that the FrSky RX is active by blinking slowly;
 4. enter bind mode by either:
 - pressing the 'Bind' button on the flight controller (if there is one and it's reachable);
-- entering CLI, and typing 'frsky_bind[Enter]'.
+- entering CLI, and typing 'bind_rx_spi[Enter]'.
 5. the flight controller will indicate that bind mode is active by changing the RX LED to be permanently on. Now, on your TX, enter bind mode for the selected FrSky protocol (see screenshots for OpenTX):
 
 FrSky D protocol:
